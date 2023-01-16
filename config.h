@@ -5,13 +5,13 @@
 
 using namespace std;
 
-class Config
-{
+class Config {
 public:
     Config();
-    ~Config(){};
 
-    void parse_arg(int argc, char*argv[]);
+    ~Config() {};
+
+    void parse_arg(int argc, char *argv[]);
 
     //端口号
     int PORT;
